@@ -46,18 +46,10 @@ blockquote {
   text-align: center;
   animation-duration: none;
   animation-fill-mode: none;
-  animation-name: fadeIn 2s;
-  -webkit-animation-duration: none;
+  animation-name: fadeIn 2400ms;
+  -webkit-animation-duration: 2400ms;
   -webkit-animation-fill-mode: none;
   -webkit-animation-name: fadeIn;
-  @keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
   a {
     background: #ddd;
     color: #000;
