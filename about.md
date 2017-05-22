@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Блог Александры Мурашко 
+title: Блог Саши Мурашко 
 ---
 
 Работаю джедаем в <a href="http://www.it-agency.ru" target="_blank">IT-Agency</a>, катаюсь на велосипеде и путешествую. <br>
