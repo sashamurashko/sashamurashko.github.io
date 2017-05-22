@@ -1,5 +1,5 @@
 # Site Info
-title:              "Блог Александры Мурашко"
+title:              "Блог Саши Мурашко"
 description:        "Джедай в IT-Agency, катаюсь на велосипеде и путешествую"
 google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
 google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
@@ -8,11 +8,11 @@ google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
 author_name:        "Александра Мурашко"
 author_email:       alex.mur@mail.ru
 author_gravatar:     /assets/avatar.png # Gravatar md5 hash
-twitter_username:   
+twitter_username:  
 github_username:    sashamurashko # GitHub username
 
 # Site Settings
-baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
+baseurl:            "alexandramurashko.ru"
 permalink:          /notes/:title # Post permalink
 timezone:           Europe/Moscow # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to false to disable
