@@ -21,7 +21,7 @@ layout: null
   </author>
 
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>{{ site.baseurl }}/</id>
+  <id>{{site.baseurl}}/</id>
   <generator version="{{ jekyll.version }}">Jekyll</generator>
 
   {% for post in site.posts limit:40 %}
@@ -32,7 +32,7 @@ layout: null
 
   <entry>
     <title type="html">{{ post.title | xml_escape }}</title>
-    <id>{{ post.url | prepend: site.baseurl }}</id>
+    <id>{{ site.baseurl}}/{{post.url}}</id>
     <updated>{{ post.updated | date_to_xmlschema }}</updated>
     <published>{{ post.path | truncate: 20 | replace: "...", "" | replace: "_posts/", "" }}T10:00:00+02:00</published>
     <content type="html" xml:lang="en">
